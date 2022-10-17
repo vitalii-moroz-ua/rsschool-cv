@@ -2,9 +2,9 @@
 
 ## Contact Info
 
-Address: Ukraine, 08500, Kyiv region, Fastiv, 15 Peremohi street  
-Phone Number: +380937569933  
-Email: vit.post@gmail.com
+Ukraine, 08500, Kyiv region, Fastiv, 15 Peremohi street  
++380937569933  
+vit.post@gmail.com
 
 ## Summary
 
@@ -63,5 +63,5 @@ Front-end development
 
 ## Languages
 
-Ukrainian - native
+Ukrainian - native  
 English - advanced

@@ -5,17 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <main>
       <h1 class="name">Vitalii Moroz</h1>
+      <div class="divider"></div>
       <div class="contact">
         <h2 class="contact-heading">Contact Info</h2>
         <address class="contact-info">
-          Address: Ukraine, 08500, Kyiv region, Fastiv, 15 Peremohi street
+          Ukraine, 08500, Kyiv region, Fastiv, 15 Peremohi street
           <br />
-          Phone Number: +380937569933 <br />
-          Email: vit.post@gmail.com
+          +380937569933 <br />
+          vit.post@gmail.com
         </address>
       </div>
 
@@ -29,34 +41,39 @@
 
       <div class="code-examples">
         <h2 class="code-examples-heading">Code Examples</h2>
-        <pre><code class="code-example-html">
-&lt;div class="image-box"&gt;
-   &lt;div class="product-image"&gt;&lt;/div&gt;
-&lt;/div&gt;</code></pre>
+        <pre>
+          <code class="code-example-html">
+          &lt;div class="image-box"&gt;
+            &lt;div class="product-image"&gt;&lt;/div&gt;
+          &lt;/div&gt;
+          </code>
+        </pre>
+        <pre>
+          <code class="code-example-css">
+          .image-box {
+            height: 40%;
+            overflow: hidden;
+            width: 100%;
+          }
+          .product-image {
+            align-items: center;
+            background-image: url(img.jpg);
+            background-size: cover;
+            border-top-left-radius: 0.625em;
+            border-top-right-radius: 0.625em;
+            display: flex;
+            height: 100%;
+            justify-content: center;
+            transition: all 0.3s ease-in-out;
+            width: 100%;
+          }
 
-        <pre><code class="code-example-css">
-.image-box {
-  height: 40%;
-  overflow: hidden;
-  width: 100%;
-}
-.product-image {
-  align-items: center;
-  background-image: url(images/image-product-mobile.jpg);
-  background-size: cover;
-  border-top-left-radius: 0.625em;
-  border-top-right-radius: 0.625em;
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  transition: all 0.3s ease-in-out;
-  width: 100%;
-}
-
-.product-image:hover {
-  transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
-}</code></pre>
+          .product-image:hover {
+            transform: scale(1.1);
+            transition: all 0.3s ease-in-out;
+          }
+          </code>
+        </pre>
       </div>
 
       <div class="experience">
@@ -87,6 +104,18 @@
         </ul>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <p class="footer-text">
+        <a
+          class="github-link"
+          href="https://github.com/vitalii-moroz-ua/rsschool-cv"
+          >GitHub</a
+        >
+        <a href="https://rs.school/js-en/"
+          ><img class="logo" src="img/unknown.png" alt="RS School logo"
+        /></a>
+        <time class="year" datetime="2022">2022</time>
+      </p>
+    </footer>
   </body>
 </html>
