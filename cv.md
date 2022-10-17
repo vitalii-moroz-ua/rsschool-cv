@@ -2,10 +2,9 @@
 
 ## Contact Info
 
-Address: Ukraine, 08500, Kyiv region, Fastiv, 36 Yaroslava
-Mudroho  
-Phone Number: +380937569539  
-Email: morozvit.post@gmail.com
+Ukraine, 08500, Kyiv region, Fastiv, 15 Peremohi street  
++380937569933  
+vit.post@gmail.com
 
 ## Summary
 
@@ -64,5 +63,5 @@ Front-end development
 
 ## Languages
 
-Ukrainian - native
+Ukrainian - native  
 English - advanced
